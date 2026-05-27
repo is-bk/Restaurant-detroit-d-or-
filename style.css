@@ -208,8 +208,18 @@ nav ul li a:hover{
 }
 
 .parallax-content h2{
-  font-size:70px;
+  font-size:clamp(35px, 8vw, 70px);
   color:#fff;
+  text-align: center;
+  pading: 0 15;
+}
+
+.parallax{
+  height:40vh;
+}
+
+.parallax-content h2{
+  line-height:1.2;
 }
 
 /* ================= MENU ================= */
